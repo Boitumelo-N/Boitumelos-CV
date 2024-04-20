@@ -1,0 +1,22 @@
+.image {
+  margin: 0 auto;
+  border-radius: 55%;
+  max-width: 80%;
+  height: 200px;
+  float: left;
+  overflow: hidden;
+}
+
+.name {
+  display: flex;
+  font-size: 40px;
+  text-align: center;
+}
+
+.cv-container {
+  text-align: left;
+}
+
+.cv-intro {
+  padding-bottom: 8%;
+}
