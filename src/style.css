@@ -1,6 +1,21 @@
+.container {
+  background: rgb(238, 174, 202);
+  background: radial-gradient(
+    circle,
+    rgba(238, 174, 202, 1) 0%,
+    rgba(148, 187, 233, 1) 100%
+  );
+  position: relative;
+  width: 100%;
+  max-width: 1000px;
+  max-height: 1000px;
+  margin: 60px;
+  border-radius: 10px;
+}
+
 .image {
   margin: 0 auto;
-  border-radius: 55%;
+  border-radius: 50%;
   max-width: 80%;
   height: 200px;
   float: left;
@@ -9,16 +24,63 @@
 
 .name {
   display: flex;
-  font-size: 40px;
+  font-size: 45px;
   text-align: center;
+  padding-top: 5%;
+  font-family: "Xanh Mono", monospace;
+  font-weight: bold;
+}
+
+.sub-heading {
+  font-weight: bold;
+  font-size: 18px;
+  font-family: "Xanh Mono", monospace;
+}
+
+.description {
+  font-size: 18px;
+  font-family: "Xanh Mono", monospace;
+  font-weight: 800;
 }
 
 .cv-container {
   text-align: left;
+  margin: 0%;
 }
 
 .cv-intro {
-  padding-bottom: 8%;
+  padding-bottom: 2%;
+  font-family: "Xanh Mono", monospace;
+}
+
+.education {
+  font-family: "Xanh Mono", monospace;
+}
+
+.certifications {
+  font-family: "Xanh Mono", monospace;
+  font-weight: 800;
+  list-style: disclosure-closed;
+}
+
+.work-experience {
+  font-family: "Xanh Mono", monospace;
+}
+
+.work {
+  font-family: "Xanh Mono", monospace;
+  font-weight: 800;
+  list-style: disclosure-closed;
+}
+
+.skills {
+  font-family: "Xanh Mono", monospace;
+}
+
+.my-skills {
+  font-family: "Xanh Mono", monospace;
+  font-weight: 800;
+  list-style: disclosure-closed;
 }
 
 footer {
@@ -27,4 +89,7 @@ footer {
   display: flex;
   text-align: center;
   width: 500px;
+  font-family: "Xanh Mono", monospace;
+  font-size: large;
+  font-weight: bold;
 }
