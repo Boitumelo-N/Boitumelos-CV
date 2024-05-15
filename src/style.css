@@ -22,7 +22,7 @@
       rgba(83, 73, 77, 1) 0%,
       rgba(153, 139, 146, 1) 100%
     );
-    padding: 20px;
+    padding: 0 auto;
   }
 
   .name {
