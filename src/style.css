@@ -1,3 +1,8 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
 .container {
   background: rgb(83, 73, 77);
   background: radial-gradient(
@@ -9,57 +14,8 @@
   position: relative;
   width: 100%;
   max-width: 1000px;
-  max-height: 1000px;
-  margin: 60px;
+  margin: 60px auto;
   border-radius: 10px;
-}
-
-@media only screen and (max-width: 600px) {
-  .container {
-    margin: 20px;
-  }
-
-  .body {
-    padding: 0;
-    margin: 0;
-  }
-
-  .name {
-    font-size: 20px;
-  }
-
-  .sub-heading {
-    font-size: 14px;
-  }
-
-  .image {
-    max-width: 100%;
-    height: auto;
-    float: none;
-    display: block;
-    margin: 0 auto;
-  }
-
-  .footer {
-    width: 100%;
-  }
-
-  .name {
-    font-size: 20px;
-  }
-
-  .sub-heading {
-    font-size: 14px;
-  }
-
-  .image {
-    max-width: 100%;
-    height: auto;
-    float: none;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-  }
 }
 
 .image {
@@ -141,4 +97,52 @@ footer {
   font-family: "Xanh Mono", monospace;
   font-size: large;
   font-weight: bold;
+}
+
+@media only screen and (max-width: 600px) {
+  .container {
+    margin: 20px;
+  }
+
+  .body {
+    padding: 0;
+    margin: 0;
+  }
+
+  .name {
+    font-size: 20px;
+  }
+
+  .sub-heading {
+    font-size: 14px;
+  }
+
+  .image {
+    max-width: 100%;
+    height: auto;
+    float: none;
+    display: block;
+    margin: 0 auto;
+  }
+
+  .footer {
+    width: 100%;
+  }
+
+  .name {
+    font-size: 20px;
+  }
+
+  .sub-heading {
+    font-size: 14px;
+  }
+
+  .image {
+    max-width: 100%;
+    height: auto;
+    float: none;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
 }
