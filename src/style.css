@@ -14,15 +14,15 @@ body {
   position: relative;
   width: 100%;
   max-width: 1000px;
-  margin: 60px auto;
+  margin: 100px auto;
   border-radius: 10px;
 }
 
 .image {
   margin: 0 auto;
   border-radius: 50%;
-  max-width: 80%;
-  height: 200px;
+  max-width: 40%;
+  height: 160px;
   float: left;
   overflow: hidden;
 }
@@ -88,14 +88,22 @@ body {
   list-style: disclosure-closed;
 }
 
-footer {
-  position: relative;
-  height: 100px;
-  display: flex;
-  text-align: center;
-  width: 500px;
+.projects {
   font-family: "Xanh Mono", monospace;
-  font-size: large;
+}
+
+.my-projects {
+  font-family: "Xanh Mono", monospace;
+  font-weight: 800;
+  list-style: disclosure-closed;
+}
+
+footer {
+ border-top: 1px solid #f5f1fe;
+  padding: 30px 0 0 0;
+  text-align: center;
+  font-size: 18px;
+  color: rgba(0, 0, 0, 0.6);
   font-weight: bold;
 }
 
